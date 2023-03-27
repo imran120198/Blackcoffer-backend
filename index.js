@@ -6,7 +6,7 @@ const cors = require("cors");
 const { connection } = require("./Config/db");
 const { DataRouter } = require("./Routes/Data.route");
 
-// app.use(cors);
+app.use(cors);
 
 //Routes
 
